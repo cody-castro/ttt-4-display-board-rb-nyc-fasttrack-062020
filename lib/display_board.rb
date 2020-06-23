@@ -17,4 +17,4 @@ end
 display_board(board)
 
 puts "Turn 1: where would you like to go? 0-8"
-position = gets.strip
+
