@@ -8,9 +8,9 @@ rows = ["  |  |  ", "-----------", "  |  |  ", "-----------", "   |   |   "]
 
 def display_board(ttt)
   puts " #{ttt[0]} | #{ttt[1]} | #{ttt[2]}"
-  puts "----------"
+  puts " ----------"
   puts " #{ttt[3]} | #{ttt[4]} | #{ttt[5]}"
-  puts "----------"
+  puts " ----------"
   puts " #{ttt[6]} | #{ttt[7]} | #{ttt[8]}"
 end
 
