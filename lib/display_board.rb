@@ -14,5 +14,5 @@ def display_board(ttt_board)
   puts "  |   |   "
 end
 
-display_board
+display_board(board)
 
