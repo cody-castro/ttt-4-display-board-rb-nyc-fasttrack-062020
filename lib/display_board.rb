@@ -6,7 +6,7 @@ rows = ["  |  |  ", "-----------", "  |  |  ", "-----------", "   |   |   "]
 
 
 
-def display_board
+def display_board(ttt_board)
   puts "  |   |   "
   puts "----------"
   puts "  |   |   "
