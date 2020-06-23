@@ -1,7 +1,7 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-board = [" ", "X", "  ", "  ", "O", " ", " ", " ", " "]
+board = [" ", " ", "  ", "  ", " ", " ", " ", " ", " "]
 rows = ["  |  |  ", "-----------", "  |  |  ", "-----------", "   |   |   "]
 
 
@@ -16,3 +16,5 @@ end
 
 display_board(board)
 
+puts "Turn 1: where would you like to go? 0-8"
+position = gets.strip
