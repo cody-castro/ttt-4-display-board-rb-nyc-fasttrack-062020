@@ -7,9 +7,9 @@ rows = ["  |  |  ", "-----------", "  |  |  ", "-----------", "   |   |   "]
 
 
 def display_board(ttt_board)
-  puts "  |   |   "
+  puts " #{ttt_board[0]}  |   |   "
   puts "----------"
-  puts "  | X |   "
+  puts "  |   |   "
   puts "----------"
   puts "  |   |   "
 end
